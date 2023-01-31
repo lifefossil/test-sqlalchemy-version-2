@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-sqlalchemy-version-2"
+version = "0.1.0"
+description = ""
+authors = ["oliver"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "test_sqlalchemy_version_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
